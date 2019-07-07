@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.mode">
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<application android:label="Andro Hunt" android:icon="res/drawable-hdpi/d1.jpg" android:debuggable="true">
+		<activity android:label="Andro Hunt" android:name=".SplashUI">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="HowTo" />
+		<activity android:name="main" android:windowSoftInputMode="0x3" />
+		<receiver android:name=".Broadcast">
+			<intent-filter>
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+				<action android:name="android.media.RINGER_MODE_CHANGED" />
+			</intent-filter>
+		</receiver>
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.READ_OWNER_DATA" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>

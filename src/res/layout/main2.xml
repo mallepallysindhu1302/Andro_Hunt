@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable-hdpi/mob.jpg" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="212992unknown unit:0x23" android:textStyle="0x1" android:textColor="491792" android:id="false" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:text="VIBRATE PASSWORD" android:layout_x="18dp" android:layout_y="296dp" />
+	<EditText android:id="false" android:focusableInTouchMode="true" android:layout_width="120px" android:layout_height="-2" android:ems="10" android:layout_x="203dp" android:layout_y="284dp">
+		<requestFocus />
+	</EditText>
+	<EditText android:id="false" android:layout_width="120px" android:layout_height="-2" android:ems="10" android:layout_x="198dp" android:layout_y="188dp" />
+	<EditText android:id="false" android:focusableInTouchMode="true" android:layout_width="120px" android:layout_height="-2" android:ems="10" android:layout_x="196dp" android:layout_y="83dp" android:keepScreenOn="false" />
+	<TextView android:textSize="212992unknown unit:0x23" android:textStyle="0x1" android:textColor="491792" android:id="false" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:text="SILENT PASSWORD" android:layout_x="20dp" android:layout_y="103dp" />
+	<TextView android:textSize="212992unknown unit:0x23" android:textStyle="0x1" android:textColor="491792" android:id="false" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:text="RING PASSWORD" android:layout_x="20dp" android:layout_y="208dp" />
+	<Button android:textSize="20sp" android:textColor="e56567" android:id="false" android:layout_width="120px" android:layout_height="68dp" android:text="Save" android:layout_x="117dp" android:layout_y="339dp" />
+</AbsoluteLayout>
